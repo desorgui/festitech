@@ -1,0 +1,107 @@
+:root {
+  --white: #fff;
+  --red-color: #ec5242;
+  --black-color: #272a31;
+  --gray-color: #d3d3d3;
+  --font-cocogoose: 'Cocogoose', sans serif;
+  --font-lato: 'Lato', sans-serif;
+}
+
+body {
+  background: #f8f8f8;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+  transition: all .4s linear;
+}
+
+li {
+  list-style: none;
+}
+
+.active {
+  display: block !important;
+}
+
+.header-container {
+  background-color: var(--white);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5rem 1rem;
+}
+
+.brand {
+  display: none;
+}
+
+.logo {
+  width: 80px;
+}
+
+.nav-button nav {
+  font-size: 32px;
+  color: var(--black-color);
+  font-weight: 700;
+}
+
+.nav-button .btn-close {
+  display: none;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+}
+
+menu {
+  display: none;
+  padding: 0;
+}
+
+menu .menu-item {
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+@media screen and (min-width:768px) {
+  .brand {
+    display: block;
+  }
+
+  menu {
+    display: flex;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  menu .menu-item:hover a {
+    color: var(--red-color);
+  }
+
+  .menu-item:last-child a {
+    background-color: var(--white);
+    border: 3px solid var(--red-color);
+    color: var(--red-color);
+    font-weight: 600;
+    padding: 5px 9px;
+  }
+
+  .menu-item:last-child a:hover {
+    background-color: var(--red-color);
+    color: var(--white);
+  }
+}
