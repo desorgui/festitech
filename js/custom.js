@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('#hamburger');
 const closeBtn = document.querySelector('#btn-close');
 const mobileNav = document.querySelector('.menu-list');
-const header = document.querySelector('#header')
+const header = document.querySelector('#header');
 
 hamburger.addEventListener('click', () => {
   mobileNav.classList.add('active');
