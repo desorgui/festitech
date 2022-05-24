@@ -1,20 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../fonts/cocogoose.otf);
+}
+
 :root {
   --white: #fff;
   --red-color: #ec5242;
   --black-color: #272a31;
   --gray-color: #d3d3d3;
-  --font-cocogoose: 'Cocogoose', sans serif;
+  --font-cocogoose: 'cocogoose', sans serif;
   --font-lato: 'Lato', sans-serif;
 }
 
 body {
   background: #f8f8f8;
+  font-family: var(--font-cocogoose);
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: var(--black-color);
   transition: all 0.4s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 li {
@@ -31,6 +50,16 @@ li {
 
 .unactive {
   display: none !important;
+}
+
+.content {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content>div {
+  max-width: 700px;
 }
 
 .header-container {
@@ -56,7 +85,7 @@ li {
 }
 
 .logo {
-  width: 80px;
+  width: 100px;
 }
 
 .nav-button nav {
@@ -79,11 +108,39 @@ li {
 menu {
   display: none;
   padding: 0;
+  font-family: var(--font-lato);
 }
 
 menu .menu-item {
   margin-top: 30px;
   font-size: 32px;
+}
+
+.headline {
+  margin-top: 50px;
+  padding: 50px 16px;
+  background: url(https://festivalofwhat.works/wp-content/uploads/video-blur-2.jpg);
+}
+
+.headline h3 {
+  color: var(--red-color);
+  font-family: var(--font-lato);
+  font-size: 24px;
+}
+
+.headline h1 {
+  background: url(https://api.time.com/wp-content/uploads/2020/03/GettyImages-1205397094.jpg?quality=85&w=1200&h=628&crop=1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+.headline .text {
+  background-color: #f8f8f8;
+  border: solid 5px #fff;
+  padding: 1rem;
+  font-family: var(--font-lato);
 }
 
 @media screen and (min-width: 768px) {
@@ -120,5 +177,16 @@ menu .menu-item {
   .menu-item:last-child a:hover {
     background-color: var(--red-color);
     color: var(--white);
+  }
+
+  .headline {
+    height: 100vh;
+  }
+
+  .headline h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    line-height: 70px;
+    margin-top: 20px;
   }
 }
