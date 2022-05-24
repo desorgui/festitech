@@ -25,6 +25,14 @@ li {
   display: block !important;
 }
 
+.d-center {
+  justify-content: center !important;
+}
+
+.unactive {
+  display: none !important;
+}
+
 .header-container {
   background-color: var(--white);
   position: fixed;
@@ -52,13 +60,16 @@ li {
 }
 
 .nav-button nav {
+  display: none;
   font-size: 32px;
   color: var(--black-color);
   font-weight: 700;
 }
 
 .nav-button .btn-close {
-  display: none;
+  position: absolute;
+  top: 10px;
+  left: 20px;
 }
 
 .nav-button:hover {
@@ -71,8 +82,8 @@ menu {
 }
 
 menu .menu-item {
-  margin-right: 30px;
-  font-size: 18px;
+  margin-top: 30px;
+  font-size: 32px;
 }
 
 @media screen and (min-width:768px) {
@@ -80,12 +91,18 @@ menu .menu-item {
     display: block;
   }
 
+  .nav-button {
+    display: none;
+  }
+
   menu {
     display: flex;
   }
 
-  .nav-button {
-    display: none;
+  menu .menu-item {
+    margin-top: 0;
+    margin-right: 30px;
+    font-size: 18px;
   }
 
   menu .menu-item:hover a {
