@@ -14,7 +14,7 @@ body {
 a {
   text-decoration: none;
   color: var(--black-color);
-  transition: all .4s linear;
+  transition: all 0.4s linear;
 }
 
 li {
@@ -48,7 +48,7 @@ li {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .brand {
@@ -86,7 +86,7 @@ menu .menu-item {
   font-size: 32px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .brand {
     display: block;
   }
@@ -105,16 +105,16 @@ menu .menu-item {
     font-size: 18px;
   }
 
-  menu .menu-item:hover a {
-    color: var(--red-color);
-  }
-
   .menu-item:last-child a {
     background-color: var(--white);
     border: 3px solid var(--red-color);
     color: var(--red-color);
     font-weight: 600;
     padding: 5px 9px;
+  }
+
+  menu .menu-item:hover a {
+    color: var(--red-color);
   }
 
   .menu-item:last-child a:hover {
