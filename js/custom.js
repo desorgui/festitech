@@ -59,7 +59,7 @@ const speakers = [
     name: 'Desor Guishny',
     bio: 'Developer at GSTech and student at microverse',
     description: 'can help you to build beautiful projects, modern and responsive websites, you can see him work on this page',
-  }
+  },
 ];
 
 const speakersSection = document.querySelector('#speakers-container');
