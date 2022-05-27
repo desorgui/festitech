@@ -62,6 +62,12 @@ p {
   justify-content: center;
 }
 
+.content {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about .content {
   display: flex;
   flex-direction: column;
@@ -78,15 +84,8 @@ p {
   line-height: 70px;
 }
 
-.content {
-  max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .about .content,
-.about .content,
-.headline .content>div {
+.headline .content > div {
   max-width: 700px;
 }
 
@@ -166,14 +165,20 @@ menu .menu-item {
   top: 70px;
 }
 
+.about .past-img a {
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
 .about .breadcrumb a:hover {
   color: var(--red-color);
 }
 
 .about .logo-img {
   display: flex;
-  justify-content: center;
   padding: 30px 50px;
+  justify-content: center;
   width: fit-content;
   border: solid 1px var(--gray-color);
   margin-left: auto;
@@ -194,14 +199,18 @@ menu .menu-item {
   padding: 50px 16px;
 }
 
-.about .past-img a {
-  width: 300px;
-  overflow: hidden;
-}
-
 .about .past-img img {
   width: 100%;
   transition: all .5s linear;
+}
+
+.sponsor-list .list-item img {
+  width: 150px;
+}
+
+.accessibility-list .list-item img {
+  width: 50px;
+  filter: invert(0.7);
 }
 
 .about .past-img a:hover img {
@@ -220,11 +229,7 @@ menu .menu-item {
   margin-top: 30px;
   gap: 16px;
 }
-
-.about .past-img a {
-  position: relative;
-}
-
+  
 .about .past-img span {
   font-size: 32px;
   font-weight: 600;
@@ -306,11 +311,6 @@ menu .menu-item {
   margin-top: 5px;
   background-color: #272a317a;
   padding: 1rem;
-}
-
-.accessibility-list .list-item img {
-  width: 50px;
-  filter: invert(0.7);
 }
 
 .accessibility-list .list-item .access-text {
@@ -413,10 +413,6 @@ menu .menu-item {
   justify-content: center;
 }
 
-.sponsor-list .list-item img {
-  width: 150px;
-}
-
 .footer {
   padding: 50px 16px;
   background-color: var(--white);
@@ -427,14 +423,14 @@ menu .menu-item {
   color: var(--white);
 }
 
-.about .footer .content {
-  flex-direction: row;
-}
-
 .footer .content {
   display: flex;
   justify-content: center;
   gap: 32px;
+} 
+
+.about .footer .content {
+  flex-direction: row;
 }
 
 .footer-logo {
