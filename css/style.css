@@ -477,6 +477,10 @@ menu .menu-item {
     color: var(--white);
   }
 
+  .l-active a {
+    color: var(--red-color);
+  }
+
   .headline {
     height: fit-content;
     padding: 120px 16px;
@@ -538,7 +542,7 @@ menu .menu-item {
   .about .past-img {
     flex-direction: row;
   }
-  
+
   .sponsor-list .list-item img {
     width: 150px;
   }

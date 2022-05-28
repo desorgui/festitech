@@ -1,6 +1,6 @@
 # First Capstone Project
 
-> Web project to boost my presence on the web.
+> Web project to boost my presence on the web. This project is a template highlighting an annual Technologic activity. It was made as part of a project to complement my activities at Microverse.
 
 ## Built With
 
@@ -55,4 +55,8 @@ Give a ⭐️ if you like this project!
 
 ## Link to my Presentation Video.
 
-- [https://www.loom.com/share/56822f40395f4143a3d0b6f8c2c0628b](https://www.loom.com/share/56822f40395f4143a3d0b6f8c2c0628b)
+- [https://www.loom.com/share/4ea18945f19749ef836f296553277cac](https://www.loom.com/share/4ea18945f19749ef836f296553277cac)
+
+## Visit my project at this link
+
+- [https://desorgui.github.io/firstCapstone](https://desorgui.github.io/firstCapstone)
