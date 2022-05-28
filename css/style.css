@@ -201,7 +201,7 @@ menu .menu-item {
 
 .about .past-img img {
   width: 100%;
-  transition: all .5s linear;
+  transition: all 0.5s linear;
 }
 
 .sponsor-list .list-item img {
@@ -229,7 +229,7 @@ menu .menu-item {
   margin-top: 30px;
   gap: 16px;
 }
-  
+
 .about .past-img span {
   font-size: 32px;
   font-weight: 600;
@@ -427,7 +427,7 @@ menu .menu-item {
   display: flex;
   justify-content: center;
   gap: 32px;
-} 
+}
 
 .about .footer .content {
   flex-direction: row;
