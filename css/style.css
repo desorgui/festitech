@@ -205,7 +205,7 @@ menu .menu-item {
 }
 
 .sponsor-list .list-item img {
-  width: 150px;
+  width: 100px;
 }
 
 .accessibility-list .list-item img {
@@ -537,5 +537,9 @@ menu .menu-item {
 
   .about .past-img {
     flex-direction: row;
+  }
+  
+  .sponsor-list .list-item img {
+    width: 150px;
   }
 }
