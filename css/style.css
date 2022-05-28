@@ -450,6 +450,10 @@ menu .menu-item {
     display: flex;
   }
 
+  .d-center {
+    justify-content: space-between !important;
+  }
+
   menu .menu-item {
     margin-top: 0;
     margin-right: 30px;
@@ -472,6 +476,8 @@ menu .menu-item {
     background-color: var(--red-color);
     color: var(--white);
   }
+
+
 
   .headline {
     height: fit-content;
