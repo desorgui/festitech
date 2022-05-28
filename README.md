@@ -1,6 +1,6 @@
 # First Capstone Project
 
-> Web project to boost my presence on the web.
+> Web project to boost my presence on the web. This project is a template highlighting an annual Technologic activity. It was made as part of a project to complement my activities at Microverse..
 
 ## Built With
 
