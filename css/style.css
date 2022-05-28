@@ -460,16 +460,16 @@ menu .menu-item {
     font-size: 18px;
   }
 
+  .l-active a {
+    color: var(--red-color);
+  }
+
   .menu-item:last-child a {
     background-color: var(--white);
     border: 3px solid var(--red-color);
     color: var(--red-color);
     font-weight: 600;
     padding: 5px 9px;
-  }
-
-  .l-active a {
-    color: var(--red-color);
   }
 
   menu .menu-item:hover a {
