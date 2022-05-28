@@ -468,6 +468,10 @@ menu .menu-item {
     padding: 5px 9px;
   }
 
+  .l-active a {
+    color: var(--red-color);
+  }
+
   menu .menu-item:hover a {
     color: var(--red-color);
   }
@@ -475,10 +479,6 @@ menu .menu-item {
   .menu-item:last-child a:hover {
     background-color: var(--red-color);
     color: var(--white);
-  }
-
-  .l-active a {
-    color: var(--red-color);
   }
 
   .headline {
