@@ -476,9 +476,7 @@ menu .menu-item {
     background-color: var(--red-color);
     color: var(--white);
   }
-
-
-
+  
   .headline {
     height: fit-content;
     padding: 120px 16px;
