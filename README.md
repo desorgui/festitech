@@ -1,6 +1,6 @@
 # First Capstone Project
 
-> Web project to boost my presence on the web. This project is a template highlighting an annual Technologic activity. It was made as part of a project to complement my activities at Microverse.
+> This project was done as part of my curriculum at microverse, it was done at the end of my first module. in order to put into practice all the knowledge acquired in this module. this project is designed to display an event, and give information necessary for this event. I implemented it thinking about an annual technology festival that is done in my country. and I chose this topic to realize it.
 
 ## Built With
 
