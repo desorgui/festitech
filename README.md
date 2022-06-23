@@ -4,7 +4,7 @@
 
 ## Built With
 
-- HTML, CSS & Javascript
+- HTML, CSS & JavaScript
 
 ## Getting Started
 
