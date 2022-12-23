@@ -47,6 +47,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [Screenshots](#screenshots)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -75,7 +76,7 @@
 
 **[Festitech]** This project was done as part of my curriculum at microverse, it was done at the end of my first module. in order to put into practice all the knowledge acquired in this module. this project is designed to display an event, and give information necessary for this event. I implemented it thinking about an annual technology festival that is done in my country. and I chose this topic to realize it.
 
-## :camera: Screenshots
+## :camera: Screenshots <a name="screenshots"></a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
