@@ -47,7 +47,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [Screenshots](#screenshots)
+  - :camera: [Screenshots](#screenshots)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
