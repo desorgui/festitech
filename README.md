@@ -25,7 +25,7 @@
   <a href="https://github.com/desorgui/festitech/issues/">
     <img src="https://img.shields.io/github/issues/desorgui/festitech" alt="open issues" />
   </a>
-  <a href="https://github.com/desorgui/festitech/blob/master/MIT.md">
+  <a href="https://github.com/desorgui/festitech/blob/main/MIT.md">
     <img src="https://img.shields.io/github/license/desorgui/festitech.svg" alt="license" />
   </a>
 </p>
