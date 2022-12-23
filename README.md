@@ -75,6 +75,8 @@
 
 **[Festitech]** This project was done as part of my curriculum at microverse, it was done at the end of my first module. in order to put into practice all the knowledge acquired in this module. this project is designed to display an event, and give information necessary for this event. I implemented it thinking about an annual technology festival that is done in my country. and I chose this topic to realize it.
 
+## :camera: Screenshots
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
