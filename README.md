@@ -2,12 +2,6 @@
 
 <div align="center">
 
-  <img src="./murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse Project</b></h3>
-
-
   <!-- Badges -->
 <p>
   <a href="https://github.com/desorgui/festitech/graphs/contributors">
@@ -74,7 +68,12 @@
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[Festitech]** This project was done as part of my curriculum at microverse, it was done at the end of my first module. in order to put into practice all the knowledge acquired in this module. this project is designed to display an event, and give information necessary for this event. I implemented it thinking about an annual technology festival that is done in my country. and I chose this topic to realize it.
+Festitech, a dynamic and immersive web project utilizing cutting-edge technologies such as HTML, CSS, and JavaScript.
+- Designed visually striking and user-friendly web pages with interactive maps, videos, and animations to create an immersive experience for users.
+- Integrated live streaming of events and social media integration to enable festival attendees to explore and interact with various festival activities and events.
+- Managed the project by overseeing the development process, ensuring that it met the project objectives, and delivered within the project timelines.
+- Designed user experience, created wireframes and prototypes, and implemented user feedback to improve the website's usability.
+- Tested and debugged the website using testing and debugging techniques, ensuring that it performed optimally and was free of bugs and errors.
 
 ## :camera: Screenshots <a name="screenshots"></a>
 
