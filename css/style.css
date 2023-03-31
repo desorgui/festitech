@@ -460,6 +460,10 @@ menu .menu-item {
     font-size: 18px;
   }
 
+  .l-active a {
+    color: var(--red-color);
+  }
+
   .menu-item:last-child a {
     background-color: var(--white);
     border: 3px solid var(--red-color);
@@ -475,10 +479,6 @@ menu .menu-item {
   .menu-item:last-child a:hover {
     background-color: var(--red-color);
     color: var(--white);
-  }
-
-  .l-active a {
-    color: var(--red-color);
   }
 
   .headline {
