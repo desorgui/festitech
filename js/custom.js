@@ -1,3 +1,7 @@
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
 const hamburger = document.querySelector('#hamburger');
 const closeBtn = document.querySelector('#btn-close');
 const mobileNav = document.querySelector('.menu-list');
