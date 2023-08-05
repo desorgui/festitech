@@ -1,8 +1,12 @@
-window.addEventListener('scroll', function() {
-  if (window.scrollY > 0) {
-    window.scrollTo(0, 1);
-  }
+document.addEventListener("DOMContentLoaded", function() {
+    var elements = [document.documentElement, document.body];
+    var windowHeight = window.innerHeight;
+
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.height = windowHeight + "px";
+    }
 });
+
 
 const hamburger = document.querySelector('#hamburger');
 const closeBtn = document.querySelector('#btn-close');
