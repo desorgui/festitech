@@ -55,7 +55,10 @@ p {
 .d-center {
   justify-content: center !important;
 }
-
+.main-content {
+  --offset-top: 46px;
+  --offset-bottom: 0px;
+}
 .about {
   display: flex;
   flex-direction: column;
