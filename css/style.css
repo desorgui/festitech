@@ -56,8 +56,9 @@ p {
   justify-content: center !important;
 }
 .main-content {
-  --offset-top: 46px;
+  --offset-top: 0px;
   --offset-bottom: 0px;
+  contain: size style;
 }
 .about {
   display: flex;
