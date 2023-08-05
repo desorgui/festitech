@@ -14,20 +14,6 @@
   --font-lato: 'Lato', sans-serif;
 }
 
-html {
-  overflow: hidden;
-}
-
-body {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
 body {
   background: #f8f8f8;
   font-family: var(--font-lato);
@@ -69,11 +55,7 @@ p {
 .d-center {
   justify-content: center !important;
 }
-.main-content {
-  --offset-top: 0px;
-  --offset-bottom: 0px;
-  contain: size style;
-}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -495,10 +477,6 @@ menu .menu-item {
     color: var(--white);
   }
 
-  .l-active a {
-    color: var(--red-color);
-  }
-
   .headline {
     height: fit-content;
     padding: 120px 16px;
@@ -560,7 +538,7 @@ menu .menu-item {
   .about .past-img {
     flex-direction: row;
   }
-
+  
   .sponsor-list .list-item img {
     width: 150px;
   }
