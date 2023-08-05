@@ -14,18 +14,14 @@
   --font-lato: 'Lato', sans-serif;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
 body {
   background: #f8f8f8;
   font-family: var(--font-lato);
   margin: 0;
   padding: 0;
+  height: 100vh;
   height: -webkit-fill-available;
+  overflow-y: scroll;
 }
 
 a {
