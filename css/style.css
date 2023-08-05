@@ -14,14 +14,22 @@
   --font-lato: 'Lato', sans-serif;
 }
 
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 body {
   background: #f8f8f8;
   font-family: var(--font-lato);
   margin: 0;
   padding: 0;
-  height: 100vh;
-  height: -webkit-fill-available;
-  overflow-y: scroll;
 }
 
 a {
