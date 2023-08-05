@@ -21,6 +21,9 @@ body {
   padding: 0;
 }
 
+.main-content {
+  overscroll-behavior: contain;
+}
 a {
   text-decoration: none;
   color: var(--black-color);
