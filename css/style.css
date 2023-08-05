@@ -14,6 +14,13 @@
   --font-lato: 'Lato', sans-serif;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background: #f8f8f8;
   font-family: var(--font-lato);
