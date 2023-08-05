@@ -1,6 +1,8 @@
-if ('scrollRestoration' in history) {
-  history.scrollRestoration = 'manual';
-}
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 0) {
+    window.scrollTo(0, 1);
+  }
+});
 
 const hamburger = document.querySelector('#hamburger');
 const closeBtn = document.querySelector('#btn-close');
