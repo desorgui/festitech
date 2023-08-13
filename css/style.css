@@ -60,6 +60,12 @@ p {
   height: 100%;
   overflow-y: scroll;
 }
+
+.main-content {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .about {
   display: flex;
   flex-direction: column;
